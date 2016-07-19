@@ -16,12 +16,27 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="retro backgruond03" translatesAutoresizingMaskIntoConstraints="NO" id="qsy-ox-LZV">
+                                <rect key="frame" x="-179" y="-12" width="678" height="772"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qsy-ox-LZV" secondAttribute="trailing" id="GVA-r7-DSX"/>
+                            <constraint firstItem="qsy-ox-LZV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XeA-Z5-ACo"/>
+                            <constraint firstItem="qsy-ox-LZV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="t6I-nK-hLJ"/>
+                            <constraint firstAttribute="bottom" secondItem="qsy-ox-LZV" secondAttribute="bottom" id="x4O-rC-PDN"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="356"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="retro backgruond03" width="1667" height="1667"/>
+    </resources>
 </document>
