@@ -31,6 +31,9 @@
                                     <constraint firstAttribute="height" constant="138" id="UDZ-3O-3nk"/>
                                 </constraints>
                                 <state key="normal" image="path1426"/>
+                                <connections>
+                                    <action selector="onPlayButtonPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="OEK-oE-qhs"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How many taps to win?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hkm-AB-a0W" userLabel="TapTF">
                                 <rect key="frame" x="58" y="359" width="203" height="30"/>
