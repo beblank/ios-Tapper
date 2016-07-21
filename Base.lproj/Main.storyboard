@@ -80,8 +80,8 @@
                         <outlet property="howManyTapsTF" destination="hkm-AB-a0W" id="lB2-8q-XTC"/>
                         <outlet property="logoImg" destination="Jp1-cG-a90" id="owQ-Hb-nPP"/>
                         <outlet property="playBtn" destination="xkz-R1-cPS" id="sMm-uQ-KJX"/>
-                        <outlet property="tabLbl" destination="FEC-HF-vXi" id="qoJ-HU-pxb"/>
                         <outlet property="tapBtn" destination="pRR-er-xsW" id="7os-0k-apz"/>
+                        <outlet property="tapLbl" destination="FEC-HF-vXi" id="XwT-sc-QBd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
